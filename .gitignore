@@ -1,0 +1,5 @@
+*.csv
+*.sqlite
+constants.py
+.idea
+venv
