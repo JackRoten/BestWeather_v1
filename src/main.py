@@ -4,7 +4,10 @@
 """
 Main executable for BestWeather app
 Goal: find the best hiking/skiing locations in Washington based on quality of weather
+
+Git test
 """
+
 
 from src.ForecastTable import build_table
 
