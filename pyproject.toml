@@ -1,15 +1,16 @@
-[tool.poetry]
-name = "bestweather-jackroten"
+tool.poetry]
+name = "bestweather"
 version = "0.1.0"
-description = ""
-authors = ["JackRoten <thejackroten@gmail.com>"]
-readme = "README.md"
+description = "A simple app to determine the best weather in select locations"
+authors = ["Jack Roten <thejackroten@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.12"
-django = "^4.2.7"
+python = "^3.10"
+Django = "^4.2.7"
 
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
